@@ -1,10 +1,11 @@
 /*
- *  MPU6500.h
+ *  mpu6500.h
  *
  *  Created on: Jan 12, 2024
  *  Author: BerkN
  *
- *  MPU6500 Object Oriented Module Driver
+ *  TDK IvenSense MPU6500 sensor driver. 
+ *  Platform independent C API. 
  *  Calibration and raw data transformation.
  *  SPI or I2C based communication.
  *  Adaptive to changed settings.
