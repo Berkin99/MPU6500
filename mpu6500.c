@@ -260,7 +260,6 @@ void MPU6500_SetClockSource(MPU6500_Device_t *dev, MPU6500_ClockSource_e clock_s
     dev->settings.clock_source = clock_source;
 }
 
-
 uint8_t MPU6500_GetAccelRange(MPU6500_Device_t *dev){
     uint8_t reg = 0;
     MPU6500_ReadRegister(dev, REG_ACCEL_CONFIG, &reg, 1);
